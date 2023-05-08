@@ -18,7 +18,7 @@ interface UserDao {
     suspend fun updateUser(user: User)
 
     @Query("SELECT * FROM User")
-    suspend fun getUser(): User
+    suspend fun getUser(): List<User>
 
     @Transaction
     @Query("SELECT * FROM User")

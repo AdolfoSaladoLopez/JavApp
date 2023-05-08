@@ -7,7 +7,7 @@ import com.adolfosalado.javapp.models.User
 
 data class UserWithLessons(
     @Embedded val user: User,
-    @Relation (
+    @Relation(
         parentColumn = "userId",
         entityColumn = "userId"
     )

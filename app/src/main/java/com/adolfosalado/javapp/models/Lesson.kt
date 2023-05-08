@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 data class Lesson(
     @PrimaryKey(autoGenerate = true)
     val lessonId: Int,
+
     val nameOfLesson: String,
     val firstDescription: String,
     val firstImage: Int?,

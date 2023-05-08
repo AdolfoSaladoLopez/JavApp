@@ -12,7 +12,6 @@ data class Tool(
     var nameOfTool: String,
     var dateObtained: Date?,
     var imageOfTool: Int?,
-
     var userId: Int?,
     var lessonId: Int
 
